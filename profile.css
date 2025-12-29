@@ -1,0 +1,60 @@
+.header{
+    margin-left: 50px;
+}
+.profilecontainer{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(236, 220, 220);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+   }
+.calendar{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(236, 220, 220);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search{
+    width: 500px;
+    height: 10px;
+    margin-top: auto;
+    margin-left: 200px;
+    padding: 10px 12px;
+    font-size: 16px;
+ border: 1px solid;
+ border-radius: 6px;
+ outline: none;
+ border-color:grey;
+}
+.table1{
+    margin-left: 15px;
+    width: auto;
+    height: 30px;
+    border-radius: 6px;
+    border-color: grey;
+}
+.table2{
+    margin-left: 15px;
+    width: auto;
+    height: 30px;
+    border-radius: 6px;
+}
+.search:focus{
+    border: 1px solid lightskyblue;
+    box-shadow: 0 0 5px lightskyblue; 
+}
+.fa-solid.fa-clipboard-list{
+display:flex;
+justify-content: center;
+align-items: center;
+font-size:50px;
+margin-top:20px;
+color: grey;
+}
+.calendar1{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}

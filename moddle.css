@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: hwb(229 5% 54%);
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: Arial;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: hwb(229 7% 36%);
+}
+
+.profile {
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.fa-regular.fa-bell {
+    color: white;
+    font-size: 18px;
+}
+.fa-regular.fa-bell:hover{
+    background-color: rgb(108, 97, 97)
+
+}
+.photo {
+    height: 25px;
+}
+
+.arrow {
+    color: white;
+    font-size: 14px;
+}
+.msg-icon{
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+.badge{
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  color: white;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+.msg-icon:hover{
+   background-color: rgb(108, 97, 97)
+}
+.welcomeimage{
+  max-width: 1100px;      
+    margin: 40px auto;   
+    padding: 20px;
+    background: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+}
+.welcomeimage img{
+  width: 100%;        
+    height: auto;       
+    border-radius: 12px;
+    display: block;
+    margin-left: 20px;
+}
+.socil-icons{
+ display: flex;
+ gap: 15px;
+ margin-left: 10px;
+ margin-bottom: 20px;
+}
+.social-icons i{
+   font-size: 30px;  
+    cursor: pointer;
+    transition: 0.2s;
+}
+.social-icons i:hover{
+   transform: scale(1.2);
+}
+.counseling{
+    display: flex;
+    align-items: center;
+    gap: 30px;               
+    background: #f3f6fb;
+    padding: 20px;
+}
+
+.tg{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.tg i{
+    font-size: 26px;
+    color: #2CA5E0;
+}
+
+.mail{
+    font-size: 16px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.form{
+    text-decoration: none;
+    color: dodgerblue;
+}
+

@@ -1,0 +1,66 @@
+.select{
+    width: fit-content;
+    height:30px;
+    border-color: grey;
+    border-radius: 6px;
+    text-decoration-color: grey;
+    padding: 4px 5px;
+}
+.search{
+    margin-left: 10px;
+    width: 150px;
+    height: 27px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.search:focus{
+     border: 1px solid lightskyblue;
+     box-shadow: 0 0 5px lightskyblue; 
+}
+.box{
+    border: 1px solid rgb(240, 239, 239);
+   width: 350px;
+   height: 200px;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+}
+.box-img{
+    flex:1;
+    background-size: cover;
+    background-position: center;
+}
+.box-content{
+    flex:1;
+    padding: 5px;
+    margin-top: -20px;
+}
+.boxes{
+    display: flex;
+    gap: 5px;
+}
+.animation{
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+.letter{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    animation-name: slideleft;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes slideleft{
+from{transform: translateX(100vw);}
+to{transform: translateX(-100%);}
+}

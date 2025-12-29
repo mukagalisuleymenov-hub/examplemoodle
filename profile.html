@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodle Page</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="moddle.css">
+          <link rel="stylesheet" href="profile.css">
+          
+    
+</head>
+<body>
+    <body>
+
+    <div class="container">
+        <img src="15yearspicture.png" class="logo" alt="NU anniversary Logo">
+
+        <ul class="menu">
+            <li><a href="moodle.html">В начало</a></li>
+            <li><a href="profile.html">Личный Кабинет</a></li>
+            <li><a href="courses.html">Мои Курсы</a></li>
+        </ul>
+
+        <div class="profile">
+            <div class="dropdown">
+            <a href="notifications.html">
+            <i class="fa-regular fa-bell"></i>
+            </a>
+            </div>
+             <div class="msg-icon">
+                <a href="messages.html"></a>
+                <i class="fa-regular fa-comment">
+                </i>
+                <span class="badge"></span>
+            </div>
+            <a href="profile.html">
+                <img src="personalphoto.jpg" class="photo">
+            </a>
+        </div>
+    </div>
+    <h2 style="margin-top: 50px;" class="header"><b>Личный кабинет</b></h2>
+<br>
+    <div class="profilecontainer">
+        <h3 style="color:black; margin-left: 10px;">Student Experience and University Development</h3>
+        <p style="color:black; margin-left:10px;"><i>Use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6syiSpwkOBZ8CCLpPkLZyj0r_Plc6aB0-qBHH7abeT7EjAg/viewform?fbzx=-2733576935929847588">form</a> to share your concerns and feedback regarding your NU student experience, so the University can enhance it and provide solutions.</i></p>
+     <h3 style="color:black; margin-left: 10px;"><b><i>SENU Mentorship</i></b></h3>
+     <p style =" margin-top: -20px; margin-left: 10px;"><a href="mailto:senu@nu.edu.kz">senu@nu.edu.kz</a><p>
+        <h3 style ="color: black; margin-left: 10px;"><b><i>Telegram: SENU Mentorship</i></b></h3>
+        <p style ="margin-left: 10px; margin-top:-20px; "><a href="https://t.me/+b88gbfIWqUo2Yjli">https://t.me/+b88gbfIWqUo2Yjli</a></p>
+</div>
+<br>
+<div class="calendar">
+    <p style="color:black; margin-left: 10px;">Шкала времени</p>
+    <table style = "font-size: 18px; color:grey;">
+        <select class="table1">
+            <option style="margin-left:20px; color: grey;">Все</option>
+            <option style="margin-left:20px; color: grey;">Просроченные</option>
+         <hr>
+            <optgroup label="Срок сдачи" style="color:grey;">
+          <option style ="color: grey;">Следующие 7 дней</option>
+           <option style ="color: grey;">Следующие 30 дней</option>
+         <option style ="color: grey;">Следующие 3 месеца</option>
+        <option style ="color: grey;">Следующие 6 месецев</option>
+        </select>
+        <select class="table2">
+            <option style ="color:gray">Сортировать по дате</option>
+             <option style="color: grey">Сортировать по курсам</option>
+        </select>
+      <input type = "text" class="search" placeholder="Поиск по типу или названию активных элементов">
+    </table>
+    <br>
+    <hr style="margin-left: 20px; margin-right:20px;color: grey;">
+    <i class="fa-solid fa-clipboard-list"></i>
+    <p style ="text-align: center; color:grey;">Нет элементов курса с приближающимся сроком сдачи</p>
+</div>
+<br>
+<div>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.js"></script>
+
+<div class="calendar1"></div>
+
+<script>
+  let calendar = new FullCalendar.Calendar(
+    document.querySelector('.calendar1'),
+    {
+      initialView: 'dayGridMonth'
+    }
+  );
+  calendar.render();
+</script>
+<br>
+<br>
+<br>
+<div>
+
+</div>
+</body>
+</html>
